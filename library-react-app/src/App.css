@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+/* nav bar */
+.appVavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c0c0c;
+  height: 80px;
+  font-family: Montserrat, sans-serif !important;
+}
+.appVavBar .p {
+  font-size: 60px;
+  font-weight: 500;
+  margin-right: 600px;
+}
+
+.appVavBar .p span {
+  color: red;
+  margin-left: 20px;
+}
+/* toggle-button */
+.toggle-button {
+  position: absolute;
+  right: 0;
+  color: red;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+/* with new div */
+.divNavbar {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+}
+.divNavbar .appVavBar-links {
+  text-decoration: none;
+  color: white;
+}
+.appVavBar-links:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+/* ------------ */
+/* with out div- not for use */
+/* .appVavBar-links {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  width: 60%;
+  font-size: 20px;
+}
+.appVavBar-links:hover {
+text-decoration: underline;
+text-decoration-color: red;
+} */
+/* ------------------------ */
+
+/* navbar after login link of courses will go to right end*/
+
+/* button */
+.btn {
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  border: 1px red solid;
+  height: 70px;
+  width: 300px;
+  border-radius: 45px;
+  background-color: red;
+  font-size: 20px;
+  gap: 10px;
+  opacity: 0.8;
+}
+/* footer icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #000000;
+  height: 80px;
+}
+
+.footer-cy {
+  margin: 0;
+  background-color: #000000;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*resposive 400*631  */
+@media (max-width:360px) {
+ 
+
+  .appVavBar {
+    border: 2px blue solid;
+    width: 100%;
+  }
+  .appVavBar .p {
+    font-size: 15px;
+  }
+  .appVavBar .p .first {
+    margin-left: 0px;
+  }
+  .appVavBar .p .second {
+    margin-left: 0px;
+    padding-left: 5px;
+  }
+  .divNavbar {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    font-size: 25px;
+    display: none;
+    flex-direction: column;
+  }
+  .divNavbar .appVavBar-links {
+    position: relative;
+    text-align: start;
+    margin-top: 18px;
+    color: white;
+  }
+  .divNavbar .appVavBar-links:hover {
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+
+  /* toogle-buuton */
+  .toggle-button {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    right: 5px;
+    color: white;
+  }
+  .btn {
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    opacity: 0.6;
+  }
+  /* .icons{
+    background-color: yellow;
+    border: 2px red solid;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+  }
+  .icons .items{
+   width: 100%;
+  }
+  .footer-cy{
+    position: absolute;
+    width: 100%;
+    top: 880px;
+    background-color: black;
+  } */
+}
+
+/* end of resposive */
+/*  */

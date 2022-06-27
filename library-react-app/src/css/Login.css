@@ -1,0 +1,54 @@
+.login-container {
+  border: 2px #c8c8c8 solid;
+  margin-left: 470px;
+  margin-right: 470px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.login-head {
+  margin-top: 50px;
+}
+.login-head .logo {
+  background-color: rgb(215, 72, 72);
+}
+.login-head .log {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.login-head .p {
+  font-size: 20px;
+}
+/* inputs  */
+
+.login-inputs {
+  margin-top: 45px;
+}
+.login-p {
+  text-align: center;
+  font-weight: 700;
+}
+
+.login-inputs-inputs {
+  height: 35px;
+  width: 400px;
+  border-radius: 10px;
+}
+#login-btn {
+  margin-top: 40px;
+  height: 50px;
+  width: 400px;
+  background-color: red;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+/* login with facebook/apple and google */
+.login-icon {
+  margin-top: 30px;
+}
+.login-icon-btns {
+  height: 50px;
+  width: 350px;
+  margin: 5px;
+  border-radius: 10px;
+}
